@@ -13,18 +13,18 @@ public:
 	Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad);
 	~Equipo();
 	string getID();
-	String getNombre();
+	string getNombre();
 	int getCriticidad();
 	bool getestado();
 	int getTiempoActivo();
 	double getPrioridad();
 	//stes
-	void setID();
-	void setNombre();
-	void setCriticidad();
-	void setEstado();
-	void setTiempoActivo();
-	void setPrioridad();
+	void setID(string id);
+	void setNombre(string nombre);
+	void setCriticidad(int criticidad);
+	void setEstado(bool estado);
+	void setTiempoActivo(int tiempoActivo);
+	void setPrioridad(double prioridad);
 	//To String
 	string MostrarEquipo();
 };
