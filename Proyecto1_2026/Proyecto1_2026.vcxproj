@@ -128,12 +128,14 @@
     <ClCompile Include="LisEquipo.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="NodoEquipo.cpp" />
+    <ClCompile Include="Tecnico.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Equipo.h" />
     <ClInclude Include="Incidencia.h" />
     <ClInclude Include="LisEquipo.h" />
     <ClInclude Include="NodoEquipo.h" />
+    <ClInclude Include="Tecnico.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
