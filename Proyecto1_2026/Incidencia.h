@@ -10,7 +10,7 @@ private:
 	int diaAparicion;
 	bool activa;
 public:
-	Incidencia(string id = "", string descripcion = "", string severidad = "", int diaAparicion = 0, bool activa = false);
+	Incidencia(string id = " ", string descripcion = " ", string severidad = " ", int diaAparicion = 0, bool activa = false);
 	~Incidencia();
 	//gets
 	string getId();

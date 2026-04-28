@@ -4,8 +4,8 @@
 class NodoIncidencia
 {
 private:
-	NodoIncidencia* Siguiente;
-	Incidencia* Dato;
+	NodoIncidencia* siguiente;
+	Incidencia* dato;
 public:
 	NodoIncidencia(NodoIncidencia* Siguiente, Incidencia* Dato);
 	~NodoIncidencia();

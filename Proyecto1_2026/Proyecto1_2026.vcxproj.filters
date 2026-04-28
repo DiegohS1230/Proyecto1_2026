@@ -36,6 +36,9 @@
     <ClCompile Include="NodoIncidencia.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="ColeccionIncidencia.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Incidencia.h">
@@ -54,6 +57,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="NodoIncidencia.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ColeccionIncidencia.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

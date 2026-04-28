@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColeccionIncidencia.cpp" />
     <ClCompile Include="Equipo.cpp" />
     <ClCompile Include="Incidencia.cpp" />
     <ClCompile Include="LisEquipo.cpp" />
@@ -132,6 +133,7 @@
     <ClCompile Include="Tecnico.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ColeccionIncidencia.h" />
     <ClInclude Include="Equipo.h" />
     <ClInclude Include="Incidencia.h" />
     <ClInclude Include="LisEquipo.h" />
