@@ -49,6 +49,7 @@ bool LisEquipo::agregarEquipo(Equipo* equipo)
 
 bool LisEquipo::eliminar(string nombre)
 {
+    if (primero) return false;
     actual = primero;
     if (primero->getDato()->getNombre() == nombre) {
         actual = primero;

@@ -22,6 +22,7 @@ void Equipo::setCriticidad(int criticidad)	{this->criticidad = criticidad;}
 void Equipo::setEstado(bool estado) { this->estado = estado; }
 void Equipo::setTiempoActivo(int tiempoActivo){ this->tiempoActivo = tiempoActivo; }
 void Equipo::setPrioridad(double prioridad) { this->prioridad = prioridad; }
+
 string Equipo::MostrarEquipo()
 {
 	stringstream s;
