@@ -21,9 +21,9 @@ public:
 	//toString
 	string MostrarTecnico();
 	//Metodos de comportamiento
-	void asignarIncidencia(Incidencia* incidencia);
-	void liberar();
 	bool estaDisponible();
-	void atenderIncidencia(Incidencia* incidencia);
+	void asignarEquipo(Equipo* equipo);
+	void ejecutarMantenimiento();
+	void liberar();
 };
 

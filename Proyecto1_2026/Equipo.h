@@ -28,12 +28,16 @@ public:
 	//To String
 	string MostrarEquipo();
 	//Metodos de comportamiento;
-	void activar();
-	void desactivar();
-	void aumentarTiempoActivo(int horas);
-	void reducirTiempoActivo(int horas);
-	bool necesitaRevision();
+	void degradar();
+	int contarIncidenciasActivas();
 	double calcularPrioridad();
-	void asociarIncidencia(Incidencia* incidencia);
+	void aplicarMantenimiento();
+	double calcularRiesgo();
+	void agregarIncidencia(Incidencia* incidencia);
+	void activar();
+	void cerrar();
+	bool estaActiva();
+	int calcularDiasActiva(int diaActual);
+	int obtenerPesoSeveridad();
 };
 

@@ -19,11 +19,12 @@ public:
 	bool eliminar(string nombre);
 	string mostrarEquipos();
 	//metodos de comportamiento
-	Equipo* buscarPorId(string id);
-	Equipo* buscarPorNombre(string nombre);
-	Equipo* obtenerEquipoMayorPrioridad();
+	void degradarTodos();
+	void calcularPrioridades();
 	void ordenarPorPrioridad();
-	void actualizarPrioridades();
-	void simularDia(int dia);
+	Equipo* buscarPorId(string id);
+	Equipo** obtenerTop3();
+	double calcularRiesgoGlobal();
+	int contarPendientes();
 };
 }
