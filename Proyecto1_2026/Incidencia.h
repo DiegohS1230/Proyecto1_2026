@@ -25,6 +25,11 @@ public:
 	void setDiaAparicion(int diaAparicion);
 	void setActiva(bool activa);
 	string mostrarIncidencias();
-
+	//Metodos de comportamiento
+	void activar();
+	void cerrar();
+	bool estaPendiente();
+	int calcularImpacto();
+	int diasActiva(int diaActual);
 };
 

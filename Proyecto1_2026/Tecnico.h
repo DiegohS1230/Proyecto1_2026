@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "Incidencia.h"
 using namespace std;
 class Tecnico{
 private: 
@@ -19,5 +20,10 @@ public:
 	void setOcupadoTec(bool ocupado);
 	//toString
 	string MostrarTecnico();
+	//Metodos de comportamiento
+	void asignarIncidencia(Incidencia* incidencia);
+	void liberar();
+	bool estaDisponible();
+	void atenderIncidencia(Incidencia* incidencia);
 };
 

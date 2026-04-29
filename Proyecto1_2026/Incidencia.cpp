@@ -21,7 +21,7 @@ int Incidencia::getDiaAparicion(){return diaAparicion;}
 bool Incidencia::getActiva(){return activa;}
 //sets
 void Incidencia::setId(string id){this->id = id;}
-void Incidencia::setDescripcion(string descripcion) { this->id = id; }
+void Incidencia::setDescripcion(string descripcion) { this->descripcion = descripcion; }
 void Incidencia::setSeveridad(string severidad) { this->severidad = severidad; }
 void Incidencia::setDiaAparicion(int diaAparicion) { this->diaAparicion = diaAparicion; }
 void Incidencia::setActiva(bool activa) { this->activa = activa; }

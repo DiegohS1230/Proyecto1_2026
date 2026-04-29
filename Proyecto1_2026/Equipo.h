@@ -1,6 +1,6 @@
 #pragma once
-#include <iostream>
-using namespace std;
+#include "ColeccionIncidencia.h"
+#include "Incidencia.h"
 class Equipo{
 private:
 	string id;
@@ -27,5 +27,13 @@ public:
 	void setPrioridad(double prioridad);
 	//To String
 	string MostrarEquipo();
+	//Metodos de comportamiento;
+	void activar();
+	void desactivar();
+	void aumentarTiempoActivo(int horas);
+	void reducirTiempoActivo(int horas);
+	bool necesitaRevision();
+	double calcularPrioridad();
+	void asociarIncidencia(Incidencia* incidencia);
 };
 

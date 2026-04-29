@@ -1,4 +1,5 @@
 #include "ColeccionIncidencia.h"
+#include <sstream>
 
 ColeccionIncidencia::ColeccionIncidencia()
 {
@@ -55,5 +56,12 @@ Incidencia* ColeccionIncidencia::Buscar(string id)
 
 string ColeccionIncidencia::MostrarIncidencias()
 {
-    return string();
+	stringstream s;
+	s << "Incidencias en la Coleccion: " << endl;
+	Actual = primero;
+	while (Actual) {
+		s<<Actual->getDato()->mostrarIncidencias()<<endl;
+		Actual = Actual->getSiguiente();
+	}
+    return s.str();
 }
