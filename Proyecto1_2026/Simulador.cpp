@@ -22,6 +22,9 @@ Simulador::~Simulador()
 }
 
 void Simulador::ejecutarSimulacion(){
+    ofstream limpiar("reporte_simulacion.txt");
+    limpiar << "REPORTE COMPLETO DE SIMULACION" << endl;
+    limpiar.close();
     for (int dia = 1; dia <= dias; dia++) {
         simularDia(dia);
         generarReporteDiario(dia);
@@ -74,7 +77,7 @@ void Simulador::generarReporteDiario(int dia)
 
 void Simulador::guardarReporteEnArchivo()
 {
-    ofstream archivo("reporte_simulacion.txt");
+    ofstream archivo("reporte_simulacion.txt", ios::app);
     if (!archivo.is_open()) throw ClassExceptio("No se pudo abrir el archivo para escribir el reporte.");
     archivo << "REPORTE GENERAL DE SIMULACION" << endl;
     archivo << "Riesgo global final: " << equipos->calcularRiesgoGlobal() << endl;
