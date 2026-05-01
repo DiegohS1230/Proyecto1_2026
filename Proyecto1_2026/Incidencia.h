@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 using namespace std;
 class Incidencia
 {
@@ -27,9 +28,10 @@ public:
 	string mostrarIncidencias();
 	//Metodos de comportamiento
 	void activar();
-	void cerrar();
-	bool estaPendiente();
-	int calcularImpacto();
-	int diasActiva(int diaActual);
+	void  resolver();
+	bool estaActiva();
+	int calcularDiasActiva(int diaActual);
+	int obtenerPesoSeveridad();
+	string convertirMayusculas(string texto);
 };
 

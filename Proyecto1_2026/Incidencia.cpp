@@ -6,7 +6,7 @@ Incidencia::Incidencia(string id, string descripcion, string severidad, int diaA
     this->id = id;
     this->activa = activa;
     this->descripcion = descripcion;
-    this->severidad = severidad;
+    this->severidad = convertirMayusculas(severidad);
     this->diaAparicion = diaAparicion;
 
 }
@@ -22,7 +22,7 @@ bool Incidencia::getActiva(){return activa;}
 //sets
 void Incidencia::setId(string id){this->id = id;}
 void Incidencia::setDescripcion(string descripcion) { this->descripcion = descripcion; }
-void Incidencia::setSeveridad(string severidad) { this->severidad = severidad; }
+void Incidencia::setSeveridad(string severidad) { this->severidad = convertirMayusculas(severidad); }
 void Incidencia::setDiaAparicion(int diaAparicion) { this->diaAparicion = diaAparicion; }
 void Incidencia::setActiva(bool activa) { this->activa = activa; }
 //toString
@@ -36,3 +36,31 @@ string Incidencia::mostrarIncidencias()
     s << "La incidencia esta activa: "<<activa << endl;
     return s.str();
 }
+
+void Incidencia::activar() {this->activa = true;}
+void Incidencia::resolver(){this->activa = false;}
+bool Incidencia::estaActiva(){return activa;}
+
+int Incidencia::calcularDiasActiva(int diaActual) {
+    if(!activa) return 0;
+    if(diaActual < diaAparicion) return 0;
+    return diaActual - diaAparicion +1;
+}
+
+int Incidencia::obtenerPesoSeveridad()
+{
+    if (severidad == "BAJA") return 1;
+    if (severidad == "MEDIA") return 2;
+    if (severidad == "ALTA") return 3;
+    return 0;
+}
+
+string Incidencia::convertirMayusculas(string texto) //Convierte el texto a mayusculas.
+{
+    for (int i = 0; i < texto.length(); i++) {
+        texto[i] = toupper(texto[i]);
+    }
+
+    return texto;
+}
+
