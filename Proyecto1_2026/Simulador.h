@@ -1,7 +1,8 @@
 #pragma once
 #include "LisEquipo.h"
 #include <fstream>
-#include <stdexcept>
+#include "ClassExceptio.h"
+#include "Mantenimiento.h"
 class Simulador {
 private:
     LisEquipo* equipos;
@@ -14,4 +15,5 @@ public:
     void simularDia(int dia);
     void generarReporteDiario(int dia);
     void guardarReporteEnArchivo();
+    Mantenimiento* seleccionarMantenimiento(Equipo* equipo);
 };

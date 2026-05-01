@@ -1,5 +1,6 @@
 #include "Simulador.h"
-
+#include "Mante_Preventivo.h"
+#include "Mante_Correctivo.h"
 Simulador::Simulador(LisEquipo* equipos, int dias)
 {
 	this->equipos = equipos;
@@ -25,25 +26,34 @@ void Simulador::simularDia(int dia)
 	cout << "          DIA " << dia << endl;
 	cout << "==============================" << endl;
 
-	if (!equipos) {
-		cout << "No hay equipos cargados." << endl;
-		return;
-	}
-
+	if (!equipos) throw ClassExceptio("No hay equipos cargados en el simulador.");
 	equipos->degradarTodos();
 	equipos->calcularPrioridades();
 	equipos->ordenarPorPrioridad();
 	Equipo** top3 = equipos->obtenerTop3();
-	//Da mantenimiento
 	for (int i = 0; i < 3; i++) {
 		if (top3[i]) {
 			cout << "\nEquipo atendido numero: " << (i + 1) << endl;
 			cout << top3[i]->MostrarEquipo() << endl;
-			top3[i]->recibirMantenimiento();
+
+			Mantenimiento* mantenimiento = seleccionarMantenimiento(top3[i]);
+
+			cout << "Tipo de mantenimiento: " << mantenimiento->getTipo() << endl;
+			cout << mantenimiento->descripcion() << endl;
+
+			Mante_Correctivo* correctivo = dynamic_cast<Mante_Correctivo*>(mantenimiento);//Se le aplica un matenimiento correctivo a los 3 equipos con mayor prioridad.
+			//Con downcast seguro.
+			if (correctivo) {
+				cout << "Mantenimiento correctivo detectado." << endl;
+				correctivo->repararFallaCritica();
+			}
+
+			mantenimiento->aplicar(top3[i]);
+
+			delete mantenimiento;
 		}
 	}
 	delete[] top3;
-	// Recalcular después del mantenimiento
 	equipos->calcularPrioridades();
 }
 
@@ -60,7 +70,7 @@ void Simulador::generarReporteDiario(int dia)
 void Simulador::guardarReporteEnArchivo()
 {
 	ofstream archivo("reporte_simulacion.txt");
-	if (!archivo.is_open()) throw runtime_error("No se pudo abrir el archivo para escribir el reporte.");
+	if (!archivo.is_open()) throw ClassExceptio("No se pudo abrir el archivo para escribir el reporte.");
 	archivo << "REPORTE GENERAL DE SIMULACION" << endl;
 	archivo << "Riesgo global final: " << equipos->calcularRiesgoGlobal() << endl;
 	archivo << "Equipos pendientes finales: " << equipos->contarPendientes() << endl;
@@ -68,4 +78,12 @@ void Simulador::guardarReporteEnArchivo()
 	archivo << equipos->mostrarEquipos() << endl;
 	archivo.close();
 	cout << "Reporte guardado en reporte_simulacion.txt" << endl;
+}
+
+Mantenimiento* Simulador::seleccionarMantenimiento(Equipo* equipo)
+{
+    if (equipo->calcularRiesgo() >= 50 || equipo->contarIncidenciasActivas() > 0) {
+        return new Mante_Correctivo();
+    }
+    return new Mante_Preventivo();
 }

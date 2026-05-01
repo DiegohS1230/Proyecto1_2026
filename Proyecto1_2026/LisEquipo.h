@@ -1,5 +1,6 @@
 #pragma once
 #include "NodoEquipo.h"
+#include "ClassExceptio.h"
 class LisEquipo
 {
 private:

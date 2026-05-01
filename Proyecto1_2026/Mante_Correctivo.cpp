@@ -7,3 +7,13 @@ void Mante_Correctivo::aplicar(Equipo* equipo)
 }
 
 string Mante_Correctivo::getTipo() {return "Correctivo";}
+
+string Mante_Correctivo::descripcion()
+{
+	return "Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.";
+}
+
+void Mante_Correctivo::repararFallaCritica()
+{
+	cout << "Reparacion critica realizada." << endl;
+}

@@ -90,7 +90,7 @@ bool LisEquipo::agregarEquipo(Equipo* equipo)
 
 bool LisEquipo::eliminar(string nombre)
 {
-    if (primero) return false;
+    if (!primero) throw ClassExceptio("No hay equipos cargados en el simulador.");
     actual = primero;
     if (primero->getDato()->getNombre() == nombre) {
         actual = primero;

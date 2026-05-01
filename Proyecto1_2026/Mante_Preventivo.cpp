@@ -6,3 +6,8 @@ void Mante_Preventivo::aplicar(Equipo* equipo){
 
 string Mante_Preventivo::getTipo(){return "Preventivo";}
 
+string Mante_Preventivo::descripcion()
+{
+	return "Mantenimiento preventivo: mejora moderada del estado del equipo.";
+}
+

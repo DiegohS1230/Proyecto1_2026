@@ -1,6 +1,7 @@
 #pragma once
 #include "ColeccionIncidencia.h"
 #include "Incidencia.h"
+#include "ClassExceptio.h"
 class Equipo{
 private:
 	string id;
@@ -43,5 +44,6 @@ public:
 	void reiniciarTiempoInactivo();
 	bool necesitaMantenimiento();
 	double calcularRiesgo();
+	void mejorarEstado(int puntos);
 };
 

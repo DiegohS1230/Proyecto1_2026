@@ -18,7 +18,7 @@ int Equipo::getCriticidad() { return criticidad; }
 int Equipo::getEstado() { return estado; }
 int Equipo::getTiempoActivo() { return tiempoActivo; }
 double Equipo::getPrioridad() { return prioridad; }
-ColeccionIncidencia* Equipo::getIncidencias() { return incidencias; }
+ColeccionIncidencia* Equipo::getIncidencias() { if (incidencias) return incidencias; else throw ClassExceptio("No hay incidencias cargadas en el equipo."); }
 //sets
 void Equipo::setID(string id) {this->id = id;}
 void Equipo::setNombre(string nombre) { this->nombre = nombre; }
@@ -26,7 +26,7 @@ void Equipo::setCriticidad(int criticidad)	{this->criticidad = criticidad;}
 void Equipo::setEstado(int estado) { this->estado = estado; }
 void Equipo::setTiempoActivo(int tiempoActivo){ this->tiempoActivo = tiempoActivo; }
 void Equipo::setPrioridad(double prioridad) { this->prioridad = prioridad; }
-void Equipo::setIncidencias(ColeccionIncidencia* incidencias) { this->incidencias = incidencias; }
+void Equipo::setIncidencias(ColeccionIncidencia* incidencias) { if (incidencias) this->incidencias = incidencias; }
 
 string Equipo::MostrarEquipo()
 {
@@ -79,3 +79,9 @@ void Equipo::resolverUnaIncidencia() { if (incidencias) incidencias->resolverUna
 void Equipo::reiniciarTiempoInactivo() { tiempoActivo = 0; } //Reinicia el tiempo activo del equipo a 0.
 bool Equipo::necesitaMantenimiento() { return estado <= 50 || contarIncidenciasActivas() > 0; } //Devuelve true si el estado del equipo es menor o igual a 50 o si tiene al menos una incidencia activa, indicando que el equipo necesita mantenimiento. 
 double Equipo::calcularRiesgo() { return (100 - estado) + contarIncidenciasActivas() * 10 + criticidad; } //Calcula el riesgo del equipo en base a su estado, el numero de incidencias activas y su criticidad. 
+
+void Equipo::mejorarEstado(int puntos)
+{
+	estado += puntos;
+	if (estado > 100) {estado = 100;}
+}
