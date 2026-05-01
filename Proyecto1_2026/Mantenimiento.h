@@ -1,5 +1,5 @@
 #pragma once
-#include "Equipo.h"
+class Equipo; 
 class Mantenimiento
 {
 public:
