@@ -4,6 +4,7 @@
 #include "Equipo.h"
 #include "Incidencia.h"
 #include "Simulador.h"
+#include "ClassExceptio.h"
 
 using namespace std;
 
@@ -12,17 +13,29 @@ int main()
 	try {
 		LisEquipo* listaEquipos = new LisEquipo();
 
-		// Crear 100 equipos
+		string tiposEquipo[10] = {
+			"Servidor academico",
+			"Router principal",
+			"Switch de red",
+			"Computadora de laboratorio",
+			"Proyector de aula",
+			"Impresora multifuncional",
+			"Punto de acceso WiFi",
+			"Equipo de videoconferencia",
+			"Servidor de bases de datos",
+			"Estacion de trabajo docente"
+		};
+
 		for (int i = 1; i <= 100; i++) {
 			stringstream id;
 			id << "EQ-" << i;
 
 			stringstream nombre;
-			nombre << "Equipo de computo #" << i;
+			nombre << tiposEquipo[i % 10] << " #" << i;
 
-			int criticidad = (i % 10) + 1;      // valores entre 1 y 10
-			int estado = 60 + (i % 40);         // valores entre 60 y 99
-			int tiempoActivo = i % 5;           // valores entre 0 y 4
+			int criticidad = (i % 10) + 1;
+			int estado = 60 + (i % 40);
+			int tiempoActivo = i % 5;
 			double prioridad = 0.0;
 
 			Equipo* equipo = new Equipo(
@@ -37,7 +50,6 @@ int main()
 			listaEquipos->agregarEquipo(equipo);
 		}
 
-		// Crear 300 incidencias, 3 por equipo
 		for (int i = 1; i <= 100; i++) {
 			stringstream idEquipo;
 			idEquipo << "EQ-" << i;
@@ -52,27 +64,25 @@ int main()
 				string severidad;
 
 				if (j == 1) {
-					descripcion = "Falla de red";
+					descripcion = "Falla de conectividad de red";
 					severidad = "ALTA";
 				}
 				else if (j == 2) {
-					descripcion = "Sistema operativo lento";
+					descripcion = "Rendimiento lento del sistema";
 					severidad = "MEDIA";
 				}
 				else {
-					descripcion = "Mantenimiento pendiente";
+					descripcion = "Mantenimiento preventivo pendiente";
 					severidad = "BAJA";
 				}
 
-				Incidencia* incidencia = new Incidencia(
+				equipo->agregarIncidencia(new Incidencia(
 					idIncidencia.str(),
 					descripcion,
 					severidad,
 					1,
 					true
-				);
-
-				equipo->agregarIncidencia(incidencia);
+				));
 			}
 		}
 
@@ -80,7 +90,7 @@ int main()
 		cout << "Equipos creados: 100" << endl;
 		cout << "Incidencias creadas: 300" << endl;
 
-		Simulador simulador(listaEquipos, 3);
+		Simulador simulador(listaEquipos, 30);
 		simulador.ejecutarSimulacion();
 	}
 	catch (exception& e) {

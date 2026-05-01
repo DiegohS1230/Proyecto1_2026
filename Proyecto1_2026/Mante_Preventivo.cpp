@@ -1,4 +1,5 @@
 #include "Mante_Preventivo.h"
+#include "Equipo.h"
 void Mante_Preventivo::aplicar(Equipo* equipo){
 		cout << "Aplicando mantenimiento preventivo a " << equipo->getNombre() << endl;
 		equipo->setEstado(equipo->getEstado() + 20);

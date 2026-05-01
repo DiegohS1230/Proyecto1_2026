@@ -1,4 +1,5 @@
 #include "Mante_Correctivo.h"
+#include "Equipo.h"
 
 void Mante_Correctivo::aplicar(Equipo* equipo)
 {
