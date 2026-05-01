@@ -150,6 +150,8 @@ int ColeccionIncidencia::cantidadTotal() //Cuenta el total de incidencias en la 
 	}
 	return contador;
 }
+
 bool ColeccionIncidencia::estaVacia()
 {
 	return primero == nullptr; //Si primero es nullptr la colección esta vacia.
+}
