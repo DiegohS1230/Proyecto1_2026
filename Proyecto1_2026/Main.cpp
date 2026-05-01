@@ -1,8 +1,9 @@
 #include <iostream>
-#include "Simulador.h"
+#include <sstream>
 #include "LisEquipo.h"
 #include "Equipo.h"
 #include "Incidencia.h"
+#include "Simulador.h"
 
 using namespace std;
 
@@ -10,26 +11,74 @@ int main()
 {
 	try {
 		LisEquipo* listaEquipos = new LisEquipo();
-		//SE CREAN LOS EQUIPOS Y SE LES ASIGNAN INCIDENCIAS (Datos quemados)
-		Equipo* eq1 = new Equipo("EQ-001", "Servidor de laboratorio", 10, 75, 0, 0.0);
-		Equipo* eq2 = new Equipo("EQ-002", "Router principal", 9, 80, 0, 0.0);
-		Equipo* eq3 = new Equipo("EQ-003", "Switch de red", 8, 85, 0, 0.0);
-		Equipo* eq4 = new Equipo("EQ-004", "Computadora de aula 1", 6, 70, 0, 0.0);
-		Equipo* eq5 = new Equipo("EQ-005", "Proyector del laboratorio", 5, 90, 0, 0.0);
-		//Se agregan incidencias a los equipos
-		eq1->agregarIncidencia(new Incidencia("INC-001", "Sobrecalentamiento del servidor", "ALTA", 1, true));
-		eq1->agregarIncidencia(new Incidencia("INC-002", "Disco duro con errores", "ALTA", 1, true));
-		eq2->agregarIncidencia(new Incidencia("INC-003", "Perdida intermitente de conexion", "MEDIA", 1, true));
-		eq3->agregarIncidencia(new Incidencia("INC-004", "Puertos de red fallando", "MEDIA", 1, true));
-		eq4->agregarIncidencia(new Incidencia("INC-005", "Sistema operativo lento", "BAJA", 1, true));
-		eq4->agregarIncidencia(new Incidencia("INC-006", "Teclado con fallas", "BAJA", 1, true)); 
-		eq5->agregarIncidencia(new Incidencia("INC-007", "Imagen borrosa", "MEDIA", 1, true));
-		//Se agregan los equipos a la lista de equipos
-		listaEquipos->agregarEquipo(eq1);
-		listaEquipos->agregarEquipo(eq2);
-		listaEquipos->agregarEquipo(eq3);
-		listaEquipos->agregarEquipo(eq4);
-		listaEquipos->agregarEquipo(eq5);
+
+		// Crear 100 equipos
+		for (int i = 1; i <= 100; i++) {
+			stringstream id;
+			id << "EQ-" << i;
+
+			stringstream nombre;
+			nombre << "Equipo de computo #" << i;
+
+			int criticidad = (i % 10) + 1;      // valores entre 1 y 10
+			int estado = 60 + (i % 40);         // valores entre 60 y 99
+			int tiempoActivo = i % 5;           // valores entre 0 y 4
+			double prioridad = 0.0;
+
+			Equipo* equipo = new Equipo(
+				id.str(),
+				nombre.str(),
+				criticidad,
+				estado,
+				tiempoActivo,
+				prioridad
+			);
+
+			listaEquipos->agregarEquipo(equipo);
+		}
+
+		// Crear 300 incidencias, 3 por equipo
+		for (int i = 1; i <= 100; i++) {
+			stringstream idEquipo;
+			idEquipo << "EQ-" << i;
+
+			Equipo* equipo = listaEquipos->buscarPorId(idEquipo.str());
+
+			for (int j = 1; j <= 3; j++) {
+				stringstream idIncidencia;
+				idIncidencia << "INC-" << i << "-" << j;
+
+				string descripcion;
+				string severidad;
+
+				if (j == 1) {
+					descripcion = "Falla de red";
+					severidad = "ALTA";
+				}
+				else if (j == 2) {
+					descripcion = "Sistema operativo lento";
+					severidad = "MEDIA";
+				}
+				else {
+					descripcion = "Mantenimiento pendiente";
+					severidad = "BAJA";
+				}
+
+				Incidencia* incidencia = new Incidencia(
+					idIncidencia.str(),
+					descripcion,
+					severidad,
+					1,
+					true
+				);
+
+				equipo->agregarIncidencia(incidencia);
+			}
+		}
+
+		cout << "Datos de prueba cargados correctamente." << endl;
+		cout << "Equipos creados: 100" << endl;
+		cout << "Incidencias creadas: 300" << endl;
 
 		Simulador simulador(listaEquipos, 30);
 		simulador.ejecutarSimulacion();

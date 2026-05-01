@@ -1,9 +1,18 @@
 #pragma once
-#include"mantenimiento.h"
+#include"Mantenimiento.h"
+#include"TemplateNodo.h"
 class List_Mante
 {
 private: 
-	List_Mante* siguiente;
-	Mantenimiento* dato;
+	TemplateNodo<Mantenimiento>* primero;
+	TemplateNodo<Mantenimiento>* actual;
+public:
+	List_Mante();
+	~List_Mante();
+	bool agregarMantenimiento(Mantenimiento* mante);
+	bool eliminar(string id);
+	Mantenimiento* buscarPorId(string id);
+	string mostrarMantenimientos();
+
 };
 

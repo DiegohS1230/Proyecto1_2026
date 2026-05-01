@@ -24,16 +24,10 @@
     <ClCompile Include="Equipo.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="NodoEquipo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="LisEquipo.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="Tecnico.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="NodoIncidencia.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="ColeccionIncidencia.cpp">
@@ -57,7 +51,7 @@
     <ClCompile Include="List_Mante.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="NodoMante.cpp">
+    <ClCompile Include="TemplateNodo.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -68,16 +62,10 @@
     <ClInclude Include="Equipo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="NodoEquipo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="LisEquipo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Tecnico.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="NodoIncidencia.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="ColeccionIncidencia.h">
@@ -101,7 +89,7 @@
     <ClInclude Include="List_Mante.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="NodoMante.h">
+    <ClInclude Include="TemplateNodo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

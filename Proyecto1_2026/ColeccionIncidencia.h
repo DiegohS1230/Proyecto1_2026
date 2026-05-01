@@ -1,11 +1,12 @@
 #pragma once
 #include <iostream>
-#include"NodoIncidencia.h"
+#include "Incidencia.h"
+#include"TemplateNodo.h"
 class ColeccionIncidencia
 {
 private:
-	NodoIncidencia* primero;
-	NodoIncidencia* Actual;
+	TemplateNodo<Incidencia>* primero;
+	TemplateNodo<Incidencia>* Actual;
 public:
 	//Constructor
 	ColeccionIncidencia();
@@ -13,7 +14,7 @@ public:
 	//Metodos basicos de colecciones
 	bool Agregar(Incidencia* dato);
 	bool Eliminar(string id);
-	Incidencia* Buscar(string id);
+	Incidencia* Buscar(string id); 
 	string MostrarIncidencias();
 	// Metodos de comportamiento
 	int contarIncidenciasActivas();

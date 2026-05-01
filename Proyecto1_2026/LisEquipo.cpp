@@ -1,51 +1,70 @@
 #include "LisEquipo.h"
 #include <sstream>
+#include "List_Mante.h"
 
-NodoEquipo* LisEquipo::dividirLista(NodoEquipo* inicio)
+TemplateNodo<Equipo>* LisEquipo::dividirLista(TemplateNodo<Equipo>* inicio)
 {
-	NodoEquipo* lento = inicio; //El puntero lento se mueve un nodo a la vez
-	NodoEquipo* rapido = inicio->getSiguiente(); //El puntero rapido se mueve dos nodos a la vez
+	TemplateNodo<Equipo>* lento = inicio; //El puntero lento se mueve un nodo a la vez
+	TemplateNodo<Equipo>* rapido = inicio->getSiguiente(); //El puntero rapido se mueve dos nodos a la vez
 
 	while (rapido && rapido->getSiguiente()) { //Mientras el puntero rapido no haya llegado al final de la lista, se mueve el puntero lento una vez y el rapido dos veces
         lento = lento->getSiguiente();
         rapido = rapido->getSiguiente()->getSiguiente();
     }
 
-	NodoEquipo* segundaMitad = lento->getSiguiente(); //El puntero lento ahora esta en el nodo medio de la lista, por lo que el nodo siguiente del puntero lento es el inicio de la segunda mitad de la lista
-    lento->setNodoSiguiente(nullptr);
+	TemplateNodo<Equipo>* segundaMitad = lento->getSiguiente(); //El puntero lento ahora esta en el nodo medio de la lista, por lo que el nodo siguiente del puntero lento es el inicio de la segunda mitad de la lista
+    lento->setSiguiente(nullptr);
 
     return segundaMitad;
 }
 
-NodoEquipo* LisEquipo::mezclarPorPrioridad(NodoEquipo* izquierda, NodoEquipo* derecha)
+TemplateNodo<Equipo>* LisEquipo::mezclarPorPrioridad(TemplateNodo<Equipo>* izquierda, TemplateNodo<Equipo>* derecha)
 {
     if (!izquierda) {return derecha;}
 	if (!derecha) { return izquierda; } //Si una de las listas esta vacia, se devuelve la otra lista como resultado de la mezcla
 
 	if (izquierda->getDato()->getPrioridad() >= derecha->getDato()->getPrioridad()) { //Si el nodo de la lista izquierda tiene una prioridad mayor o igual a la del nodo de la lista derecha, se agrega el nodo de la lista izquierda a la lista resultante y se llama recursivamente a la funcion para mezclar el resto de las listas
-        izquierda->setNodoSiguiente(mezclarPorPrioridad(izquierda->getSiguiente(), derecha));
+        izquierda->setSiguiente(mezclarPorPrioridad(izquierda->getSiguiente(), derecha));
         return izquierda;
     }
     else {
-		derecha->setNodoSiguiente(mezclarPorPrioridad(izquierda, derecha->getSiguiente()));  //Si el nodo de la lista derecha tiene una prioridad mayor a la del nodo de la lista izquierda, se agrega el nodo de la lista derecha a la lista resultante y se llama recursivamente a la funcion para mezclar el resto de las listas
+		derecha->setSiguiente(mezclarPorPrioridad(izquierda, derecha->getSiguiente()));  //Si el nodo de la lista derecha tiene una prioridad mayor a la del nodo de la lista izquierda, se agrega el nodo de la lista derecha a la lista resultante y se llama recursivamente a la funcion para mezclar el resto de las listas
         return derecha;
     }
 }
 
-NodoEquipo* LisEquipo::mergeSort(NodoEquipo* inicio)
+TemplateNodo<Equipo>* LisEquipo::mergeSort(TemplateNodo<Equipo>* inicio)
 {
 	if (!inicio || !inicio->getSiguiente()) { return inicio; } //Si la lista esta vacia o tiene un solo nodo, se devuelve la lista tal cual, ya que esta ordenada
 
-    NodoEquipo* segundaMitad = dividirLista(inicio);
-    NodoEquipo* izquierda = mergeSort(inicio);
-	NodoEquipo* derecha = mergeSort(segundaMitad);//Se divide la lista en dos mitades, se ordena cada mitad recursivamente y luego se mezclan las mitades ordenadas para obtener la lista ordenada completa
+    TemplateNodo<Equipo>* segundaMitad = dividirLista(inicio);
+    TemplateNodo<Equipo>* izquierda = mergeSort(inicio);
+	TemplateNodo<Equipo>* derecha = mergeSort(segundaMitad);//Se divide la lista en dos mitades, se ordena cada mitad recursivamente y luego se mezclan las mitades ordenadas para obtener la lista ordenada completa
     return mezclarPorPrioridad(izquierda, derecha);
+}
+
+int LisEquipo::funcionHash(string id)
+{
+    int suma = 0;
+    for (int i = 0; i < id.length(); i++) suma += id[i];
+    return suma % TAM_HASH;
+}
+
+void LisEquipo::insertarHash(Equipo* equipo)
+{
+    if (!equipo) return;
+    int posicion = funcionHash(equipo->getID());
+    tablaHash[posicion] = new TemplateNodo<Equipo>(equipo, tablaHash[posicion]);
 }
 
 LisEquipo::LisEquipo()
 {
     primero = nullptr;
     actual = nullptr;
+	//Inicializacion de la tabla hash
+    for (int i = 0; i < TAM_HASH; i++) {
+        tablaHash[i] = nullptr;
+	}
 }
 
 LisEquipo::~LisEquipo()
@@ -56,24 +75,34 @@ LisEquipo::~LisEquipo()
         delete actual->getDato();
         delete actual;
     }
+
+    for (int i = 0; i < TAM_HASH; i++) {
+        TemplateNodo<Equipo>* aux = tablaHash[i];
+        while (aux) {
+            TemplateNodo<Equipo>* temp = aux;
+            aux = aux->getSiguiente();
+            delete temp;
+        }
+        tablaHash[i] = nullptr;
+    }
 }
 
-NodoEquipo* LisEquipo::getPrimero()
+TemplateNodo<Equipo>* LisEquipo::getPrimero()
 {
     return primero;
 }
 
-NodoEquipo* LisEquipo::getActual()
+TemplateNodo<Equipo>* LisEquipo::getActual()
 {
     return actual;
 }
 
-void LisEquipo::setPrimero(NodoEquipo* primero)
+void LisEquipo::setPrimero(TemplateNodo<Equipo>* primero)
 {
     this->primero = primero;
 }
 
-void LisEquipo::setActual(NodoEquipo* actual)
+void LisEquipo::setActual(TemplateNodo<Equipo>* actual)
 {
     this->actual = actual;
 }
@@ -81,12 +110,15 @@ void LisEquipo::setActual(NodoEquipo* actual)
 bool LisEquipo::agregarEquipo(Equipo* equipo)
 {
     if (equipo) {
-        primero = new NodoEquipo(equipo, primero);
+        primero = new TemplateNodo<Equipo>(equipo, primero);
+		insertarHash(equipo); //Se agrega el equipo a la lista y a la tabla hash para facilitar su busqueda por id.
         return true;
     }
 
     return false;
 }
+
+
 
 bool LisEquipo::eliminar(string nombre)
 {
@@ -100,8 +132,8 @@ bool LisEquipo::eliminar(string nombre)
         return true;
     }else{
         while (actual->getDato()->getNombre() !=nombre) actual = actual->getSiguiente();
-        NodoEquipo* porEliminar = actual;
-        actual->setNodoSiguiente(porEliminar->getSiguiente());
+        TemplateNodo<Equipo>* porEliminar = actual;
+        actual->setSiguiente(porEliminar->getSiguiente());
         delete porEliminar->getDato();
         delete porEliminar;
         return true;
@@ -142,15 +174,19 @@ void LisEquipo::calcularPrioridades()
 
 Equipo* LisEquipo::buscarPorId(string id)
 {
-    actual = primero;
-    while (actual) {
-        if (actual->getDato()->getID() == id) {
-            return actual->getDato();
+    int posicion = funcionHash(id);
+    TemplateNodo<Equipo>* aux = tablaHash[posicion];
+    while (aux) {
+        if (aux->getDato()->getID() == id) {
+            return aux->getDato();
         }
-        actual = actual->getSiguiente();
+
+        aux = aux->getSiguiente();
     }
-    return nullptr;
+    throw ClassExceptio("No se encontró el equipo con el ID especificado.");
 }
+
+
 
 Equipo** LisEquipo::obtenerTop3()
 {

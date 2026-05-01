@@ -1,45 +1,805 @@
 REPORTE GENERAL DE SIMULACION
-Riesgo global final: 53.6
-Equipos pendientes finales: 2
+Riesgo global final: 136.7
+Equipos pendientes finales: 100
 
-El Id del Equipo es: EQ-001
-El nombre del equipo es: Servidor de laboratorio
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Equipo de computo #99
 El numero del cripticidad: 10
-El estado es: 100
-Numero de horas activas es: 0
-La prioridad del equipo es: 5
-Numero de incidencias Activas : 0
+El estado es: -40
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
 
-El Id del Equipo es: EQ-002
-El nombre del equipo es: Router principal
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Equipo de computo #89
+El numero del cripticidad: 10
+El estado es: -40
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Equipo de computo #79
+El numero del cripticidad: 10
+El estado es: -40
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-69
+El nombre del equipo es: Equipo de computo #69
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-59
+El nombre del equipo es: Equipo de computo #59
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-49
+El nombre del equipo es: Equipo de computo #49
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-39
+El nombre del equipo es: Equipo de computo #39
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-29
+El nombre del equipo es: Equipo de computo #29
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-19
+El nombre del equipo es: Equipo de computo #19
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-9
+El nombre del equipo es: Equipo de computo #9
+El numero del cripticidad: 10
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-98
+El nombre del equipo es: Equipo de computo #98
 El numero del cripticidad: 9
-El estado es: 100
-Numero de horas activas es: 0
-La prioridad del equipo es: 4.5
-Numero de incidencias Activas : 0
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
 
-El Id del Equipo es: EQ-003
-El nombre del equipo es: Switch de red
+El Id del Equipo es: EQ-88
+El nombre del equipo es: Equipo de computo #88
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-78
+El nombre del equipo es: Equipo de computo #78
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-68
+El nombre del equipo es: Equipo de computo #68
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-58
+El nombre del equipo es: Equipo de computo #58
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-48
+El nombre del equipo es: Equipo de computo #48
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-38
+El nombre del equipo es: Equipo de computo #38
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-28
+El nombre del equipo es: Equipo de computo #28
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-18
+El nombre del equipo es: Equipo de computo #18
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-8
+El nombre del equipo es: Equipo de computo #8
+El numero del cripticidad: 9
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-97
+El nombre del equipo es: Equipo de computo #97
 El numero del cripticidad: 8
-El estado es: 100
-Numero de horas activas es: 0
-La prioridad del equipo es: 4
-Numero de incidencias Activas : 0
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
 
-El Id del Equipo es: EQ-004
-El nombre del equipo es: Computadora de aula 1
+El Id del Equipo es: EQ-87
+El nombre del equipo es: Equipo de computo #87
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-77
+El nombre del equipo es: Equipo de computo #77
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-67
+El nombre del equipo es: Equipo de computo #67
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-57
+El nombre del equipo es: Equipo de computo #57
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-47
+El nombre del equipo es: Equipo de computo #47
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-37
+El nombre del equipo es: Equipo de computo #37
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-27
+El nombre del equipo es: Equipo de computo #27
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-17
+El nombre del equipo es: Equipo de computo #17
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-7
+El nombre del equipo es: Equipo de computo #7
+El numero del cripticidad: 8
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 5.3
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-96
+El nombre del equipo es: Equipo de computo #96
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-86
+El nombre del equipo es: Equipo de computo #86
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-76
+El nombre del equipo es: Equipo de computo #76
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-66
+El nombre del equipo es: Equipo de computo #66
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-56
+El nombre del equipo es: Equipo de computo #56
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-46
+El nombre del equipo es: Equipo de computo #46
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-36
+El nombre del equipo es: Equipo de computo #36
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-26
+El nombre del equipo es: Equipo de computo #26
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-16
+El nombre del equipo es: Equipo de computo #16
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-6
+El nombre del equipo es: Equipo de computo #6
+El numero del cripticidad: 7
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 4.6
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-94
+El nombre del equipo es: Equipo de computo #94
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-84
+El nombre del equipo es: Equipo de computo #84
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-74
+El nombre del equipo es: Equipo de computo #74
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-64
+El nombre del equipo es: Equipo de computo #64
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-54
+El nombre del equipo es: Equipo de computo #54
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-44
+El nombre del equipo es: Equipo de computo #44
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-34
+El nombre del equipo es: Equipo de computo #34
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-24
+El nombre del equipo es: Equipo de computo #24
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-14
+El nombre del equipo es: Equipo de computo #14
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-4
+El nombre del equipo es: Equipo de computo #4
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 4
+La prioridad del equipo es: 4.2
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-95
+El nombre del equipo es: Equipo de computo #95
 El numero del cripticidad: 6
 El estado es: 0
 Numero de horas activas es: 0
-La prioridad del equipo es: 3.6
-Numero de incidencias Activas : 2
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
 
-El Id del Equipo es: EQ-005
-El nombre del equipo es: Proyector del laboratorio
-El numero del cripticidad: 5
+El Id del Equipo es: EQ-85
+El nombre del equipo es: Equipo de computo #85
+El numero del cripticidad: 6
 El estado es: 0
 Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-75
+El nombre del equipo es: Equipo de computo #75
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-65
+El nombre del equipo es: Equipo de computo #65
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-55
+El nombre del equipo es: Equipo de computo #55
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-45
+El nombre del equipo es: Equipo de computo #45
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-35
+El nombre del equipo es: Equipo de computo #35
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-25
+El nombre del equipo es: Equipo de computo #25
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-15
+El nombre del equipo es: Equipo de computo #15
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-5
+El nombre del equipo es: Equipo de computo #5
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.9
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-93
+El nombre del equipo es: Equipo de computo #93
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-83
+El nombre del equipo es: Equipo de computo #83
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-73
+El nombre del equipo es: Equipo de computo #73
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-63
+El nombre del equipo es: Equipo de computo #63
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-53
+El nombre del equipo es: Equipo de computo #53
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-43
+El nombre del equipo es: Equipo de computo #43
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-33
+El nombre del equipo es: Equipo de computo #33
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-23
+El nombre del equipo es: Equipo de computo #23
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-13
+El nombre del equipo es: Equipo de computo #13
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-3
+El nombre del equipo es: Equipo de computo #3
+El numero del cripticidad: 4
+El estado es: 0
+Numero de horas activas es: 3
+La prioridad del equipo es: 3.5
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-92
+El nombre del equipo es: Equipo de computo #92
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
 La prioridad del equipo es: 2.8
-Numero de incidencias Activas : 1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-82
+El nombre del equipo es: Equipo de computo #82
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-72
+El nombre del equipo es: Equipo de computo #72
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-62
+El nombre del equipo es: Equipo de computo #62
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-52
+El nombre del equipo es: Equipo de computo #52
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-42
+El nombre del equipo es: Equipo de computo #42
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-32
+El nombre del equipo es: Equipo de computo #32
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-22
+El nombre del equipo es: Equipo de computo #22
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-12
+El nombre del equipo es: Equipo de computo #12
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-2
+El nombre del equipo es: Equipo de computo #2
+El numero del cripticidad: 3
+El estado es: 0
+Numero de horas activas es: 2
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-91
+El nombre del equipo es: Equipo de computo #91
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-81
+El nombre del equipo es: Equipo de computo #81
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-71
+El nombre del equipo es: Equipo de computo #71
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-61
+El nombre del equipo es: Equipo de computo #61
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-51
+El nombre del equipo es: Equipo de computo #51
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-41
+El nombre del equipo es: Equipo de computo #41
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-31
+El nombre del equipo es: Equipo de computo #31
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-21
+El nombre del equipo es: Equipo de computo #21
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-11
+El nombre del equipo es: Equipo de computo #11
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-1
+El nombre del equipo es: Equipo de computo #1
+El numero del cripticidad: 2
+El estado es: 0
+Numero de horas activas es: 1
+La prioridad del equipo es: 2.1
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-100
+El nombre del equipo es: Equipo de computo #100
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-90
+El nombre del equipo es: Equipo de computo #90
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-80
+El nombre del equipo es: Equipo de computo #80
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-70
+El nombre del equipo es: Equipo de computo #70
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-60
+El nombre del equipo es: Equipo de computo #60
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-50
+El nombre del equipo es: Equipo de computo #50
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-40
+El nombre del equipo es: Equipo de computo #40
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-30
+El nombre del equipo es: Equipo de computo #30
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-20
+El nombre del equipo es: Equipo de computo #20
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
+
+El Id del Equipo es: EQ-10
+El nombre del equipo es: Equipo de computo #10
+El numero del cripticidad: 1
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 1.4
+Numero de incidencias Activas : 3
 
 

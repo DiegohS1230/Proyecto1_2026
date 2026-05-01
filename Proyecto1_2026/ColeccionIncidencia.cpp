@@ -20,7 +20,7 @@ ColeccionIncidencia::~ColeccionIncidencia()
 bool ColeccionIncidencia::Agregar(Incidencia* dato)
 {
 	if (dato) { 
-		primero = new NodoIncidencia(primero, dato);
+		primero = new TemplateNodo<Incidencia>(dato, primero);
 		return true;
 	}
 	return false;
@@ -28,9 +28,9 @@ bool ColeccionIncidencia::Agregar(Incidencia* dato)
 
 bool ColeccionIncidencia::Eliminar(string id)
 {
-	if (primero) return false; //Si la colección esta vacia no se puede eliminar nada.
+	if (!primero) return false; //Si la colección esta vacia no se puede eliminar nada.
 	if (primero->getDato()->getId() == id) { //Si el primer nodo es el que se quiere eliminar, se elimina y se actualiza el puntero primero.
-		NodoIncidencia* temp = primero;
+		TemplateNodo<Incidencia>* temp = primero;
 		primero = primero->getSiguiente();
 
 		delete temp->getDato();
@@ -38,7 +38,7 @@ bool ColeccionIncidencia::Eliminar(string id)
 
 		return true;
 	}
-	NodoIncidencia* anterior = primero;
+	TemplateNodo<Incidencia>* anterior = primero;
 	Actual = primero->getSiguiente();
 	while (Actual) {
 		if (Actual->getDato()->getId() == id) { //Si el nodo actual es el que se quiere eliminar, se elimina y se actualiza el puntero del nodo anterior para saltar el nodo eliminado.

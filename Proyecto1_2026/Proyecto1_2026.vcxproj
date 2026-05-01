@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -133,11 +133,9 @@
     <ClCompile Include="Mantenimiento.cpp" />
     <ClCompile Include="Mante_Correctivo.cpp" />
     <ClCompile Include="Mante_Preventivo.cpp" />
-    <ClCompile Include="NodoEquipo.cpp" />
-    <ClCompile Include="NodoIncidencia.cpp" />
-    <ClCompile Include="NodoMante.cpp" />
     <ClCompile Include="Simulador.cpp" />
     <ClCompile Include="Tecnico.cpp" />
+    <ClCompile Include="TemplateNodo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassExceptio.h" />
@@ -149,11 +147,9 @@
     <ClInclude Include="Mantenimiento.h" />
     <ClInclude Include="Mante_Correctivo.h" />
     <ClInclude Include="Mante_Preventivo.h" />
-    <ClInclude Include="NodoEquipo.h" />
-    <ClInclude Include="NodoIncidencia.h" />
-    <ClInclude Include="NodoMante.h" />
     <ClInclude Include="Simulador.h" />
     <ClInclude Include="Tecnico.h" />
+    <ClInclude Include="TemplateNodo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
