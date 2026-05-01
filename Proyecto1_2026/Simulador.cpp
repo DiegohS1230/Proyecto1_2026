@@ -1,6 +1,8 @@
 #include "Simulador.h"
 #include "Mante_Preventivo.h"
 #include "Mante_Correctivo.h"
+#include <fstream>
+#include <iostream>
 
 Simulador::Simulador(LisEquipo* equipos, int dias): equipos(equipos),mantenimientos(new List_Mante())
 {
@@ -22,6 +24,9 @@ Simulador::~Simulador()
 }
 
 void Simulador::ejecutarSimulacion(){
+    ofstream limpiar("reporte_simulacion.txt");
+    limpiar << "REPORTE COMPLETO DE SIMULACION" << endl;
+    limpiar.close();
     for (int dia = 1; dia <= dias; dia++) {
         simularDia(dia);
         generarReporteDiario(dia);
@@ -31,63 +36,86 @@ void Simulador::ejecutarSimulacion(){
 
 void Simulador::simularDia(int dia)
 {
-    cout << "\n==============================" << endl;
-    cout << "          DIA " << dia << endl;
-    cout << "==============================" << endl;
+    cout << "\n--- Simulando dia " << dia << " ---" << endl;
 
-    if (!equipos) throw ClassExceptio("No hay equipos cargados en el simulador.");
-    equipos->degradarTodos();
-    equipos->calcularPrioridades();
-    equipos->ordenarPorPrioridad();
-    Equipo** top3 = equipos->obtenerTop3();
-    for (int i = 0; i < 3; i++) {
-        if (top3[i] && tecnicos[i]->estaDisponible()) {
-            tecnicos[i]->asignarEquipo(top3[i]);
-            cout << "\nEquipo atendido numero: " << (i + 1) << endl;
-            cout << top3[i]->MostrarEquipo() << endl;
-            Mantenimiento* mantenimiento = seleccionarMantenimiento(top3[i]);
-            Mante_Correctivo* correctivo = dynamic_cast<Mante_Correctivo*>(mantenimiento);
-            if (correctivo) {
-                cout << "Mantenimiento correctivo detectado." << endl;
-                correctivo->repararFallaCritica();
+    // Recorre todos los equipos, actualiza su estado diario y aplica mantenimientos si es necesario.
+    TemplateNodo<Equipo>* nodo = equipos->getPrimero();
+    while (nodo) {
+        Equipo* equipo = nodo->getDato();
+        if (equipo) {
+            equipo->actualizarDia(); // degradar, aumentar tiempo y recalcular prioridad
+
+            if (equipo->necesitaMantenimiento()) {
+                Mantenimiento* mante = seleccionarMantenimiento(equipo);
+                if (mante) {
+                    // Buscar un técnico disponible y ejecutar mantenimiento
+                    for (int i = 0; i < 3; ++i) {
+                        if (tecnicos[i] && tecnicos[i]->estaDisponible()) {
+                            tecnicos[i]->asignarEquipo(equipo);
+                            tecnicos[i]->ejecutarMantenimiento();
+                            mante->aplicar(equipo);
+                            tecnicos[i]->liberar();
+                            break;
+                        }
+                    }
+                }
             }
-            tecnicos[i]->ejecutarMantenimiento();
-            mantenimiento->aplicar(top3[i]);
-            cout << "\nDespues del mantenimiento:" << endl;
-            cout << top3[i]->MostrarEquipo() << endl;
-            tecnicos[i]->liberar();
         }
+        nodo = nodo->getSiguiente();
     }
-    delete[] top3;
+
+    // Recalcular prioridades globales después de los cambios del día
     equipos->calcularPrioridades();
 }
-
 
 void Simulador::generarReporteDiario(int dia)
 {
     cout << "\n----- REPORTE DEL DIA " << dia << " -----" << endl;
-    cout << "Riesgo global del laboratorio: "<< equipos->calcularRiesgoGlobal() << endl;
-    cout << "Equipos pendientes de atencion: "<< equipos->contarPendientes() << endl;
+    cout << "Riesgo global del laboratorio: " << equipos->calcularRiesgoGlobal() << endl;
+    cout << "Equipos pendientes de atencion: " << equipos->contarPendientes() << endl;
     cout << "Estado general:" << endl;
     cout << equipos->mostrarEquipos() << endl;
+
+    ofstream archivo("reporte_simulacion.txt", ios::app);
+
+    if (!archivo.is_open()) {
+        throw ClassExceptio("No se pudo abrir el archivo para escribir el reporte diario.");
+    }
+
+    archivo << "\n==============================" << endl;
+    archivo << "          DIA " << dia << endl;
+    archivo << "==============================" << endl;
+    archivo << "Riesgo global del laboratorio: " << equipos->calcularRiesgoGlobal() << endl;
+    archivo << "Equipos pendientes de atencion: " << equipos->contarPendientes() << endl;
+    archivo << "Estado general:" << endl;
+    archivo << equipos->mostrarEquipos() << endl;
+
+    archivo.close();
 }
 
 void Simulador::guardarReporteEnArchivo()
 {
-    ofstream archivo("reporte_simulacion.txt");
-    if (!archivo.is_open()) throw ClassExceptio("No se pudo abrir el archivo para escribir el reporte.");
-    archivo << "REPORTE GENERAL DE SIMULACION" << endl;
+    ofstream archivo("reporte_simulacion.txt", ios::app);
+
+    if (!archivo.is_open()) {
+        throw ClassExceptio("No se pudo abrir el archivo para escribir el reporte final.");
+    }
+
+    archivo << "\n========== REPORTE FINAL ==========" << endl;
     archivo << "Riesgo global final: " << equipos->calcularRiesgoGlobal() << endl;
     archivo << "Equipos pendientes finales: " << equipos->contarPendientes() << endl;
-    archivo << endl;
+    archivo << "Estado final de los equipos:" << endl;
     archivo << equipos->mostrarEquipos() << endl;
+
     archivo.close();
+
     cout << "Reporte guardado en reporte_simulacion.txt" << endl;
 }
 
 Mantenimiento* Simulador::seleccionarMantenimiento(Equipo* equipo)
 {
-    if (equipo->calcularRiesgo() >= 50 || equipo->contarIncidenciasActivas() > 0) {
+    if (!equipo) return nullptr;
+    if (equipo->tieneIncidenciasActivas() || equipo->getEstado() < 50) {
         return mantenimientos->buscarPorId("Correctivo");
     }
     return mantenimientos->buscarPorId("Preventivo");
