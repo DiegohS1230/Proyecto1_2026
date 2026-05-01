@@ -23,7 +23,12 @@ ColeccionIncidencia* Equipo::getIncidencias() { if (incidencias) return incidenc
 void Equipo::setID(string id) {this->id = id;}
 void Equipo::setNombre(string nombre) { this->nombre = nombre; }
 void Equipo::setCriticidad(int criticidad)	{this->criticidad = criticidad;}
-void Equipo::setEstado(int estado) { this->estado = estado; }
+
+void Equipo::setEstado(int estado) {
+	if (estado < 0)this->estado = 0;
+	else if(estado > 100) this->estado = 100;
+	else this->estado = estado;
+}
 void Equipo::setTiempoActivo(int tiempoActivo){ this->tiempoActivo = tiempoActivo; }
 void Equipo::setPrioridad(double prioridad) { this->prioridad = prioridad; }
 void Equipo::setIncidencias(ColeccionIncidencia* incidencias) { if (incidencias) this->incidencias = incidencias; }
@@ -47,7 +52,7 @@ bool Equipo::tieneIncidenciasActivas() { return incidencias->tieneIncidenciasAct
 
 void Equipo::degradarse() //Degrada el estado del equipo en 5 puntos cada vez que se llama a este metodo, pero el estado no puede ser menor a 0.
 {
-	if (estado > 0) estado -= 5; 
+	estado -= 5; 
 	if (estado < 0) estado = 0;
 }
 
@@ -82,6 +87,6 @@ double Equipo::calcularRiesgo() { return (100 - estado) + contarIncidenciasActiv
 
 void Equipo::mejorarEstado(int puntos)
 {
-	estado += puntos;
+	setEstado(estado + puntos);
 	if (estado > 100) {estado = 100;}
 }

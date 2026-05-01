@@ -2,8 +2,9 @@
 #include "Mante_Preventivo.h"
 #include "Mante_Correctivo.h"
 
-Simulador::Simulador(LisEquipo* equipos, int dias): equipos(equipos),dias(dias),mantenimientos(new List_Mante())
+Simulador::Simulador(LisEquipo* equipos, int dias): equipos(equipos),mantenimientos(new List_Mante())
 {
+	this->dias = dias;
     mantenimientos->agregarMantenimiento(new Mante_Preventivo());
     mantenimientos->agregarMantenimiento(new Mante_Correctivo());
 }
@@ -43,12 +44,8 @@ void Simulador::simularDia(int dia)
             cout << "Tipo de mantenimiento: " << mantenimiento->getTipo() << endl;
             cout << mantenimiento->descripcion() << endl;
 
-            mantenimiento->aplicar(top3[i]);
-
-            cout << "Tipo de mantenimiento: " << mantenimiento->getTipo() << endl;
-            cout << mantenimiento->descripcion() << endl;
-
             Mante_Correctivo* correctivo = dynamic_cast<Mante_Correctivo*>(mantenimiento);
+
             if (correctivo) {
                 cout << "Mantenimiento correctivo detectado." << endl;
                 correctivo->repararFallaCritica();
@@ -56,8 +53,8 @@ void Simulador::simularDia(int dia)
 
             mantenimiento->aplicar(top3[i]);
 
-            // NO eliminar aquí: el objeto pertenece a List_Mante y será gestionado por esa lista.
-            // delete mantenimiento;
+            cout << "\nDespues del mantenimiento:" << endl;
+            cout << top3[i]->MostrarEquipo() << endl;
         }
     }
     delete[] top3;

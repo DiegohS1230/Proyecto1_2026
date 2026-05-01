@@ -80,7 +80,7 @@ int main()
 		cout << "Equipos creados: 100" << endl;
 		cout << "Incidencias creadas: 300" << endl;
 
-		Simulador simulador(listaEquipos, 30);
+		Simulador simulador(listaEquipos, 3);
 		simulador.ejecutarSimulacion();
 	}
 	catch (exception& e) {
