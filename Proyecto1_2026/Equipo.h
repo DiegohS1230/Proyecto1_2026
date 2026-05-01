@@ -11,7 +11,7 @@ private:
 	double prioridad;
 	ColeccionIncidencia* incidencias;
 public:
-	Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad, ColeccionIncidencia* incidencias);
+	Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad);
 	~Equipo();
 	string getID();
 	string getNombre();

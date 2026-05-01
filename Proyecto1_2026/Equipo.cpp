@@ -1,12 +1,12 @@
 #include "Equipo.h"
 #include <sstream>
-Equipo::Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad, ColeccionIncidencia* incidencias) {
+Equipo::Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad) {
 	this->id = id;
 	this->nombre = nombre;
 	this->criticidad = criticidad;
 	this->estado = estado;
 	this->tiempoActivo = tiempoActivo;
-	this->incidencias = incidencias;
+	this->incidencias = new ColeccionIncidencia();
 	this->prioridad = prioridad;
 }
 Equipo::~Equipo() {}
