@@ -48,22 +48,17 @@ void Equipo::agregarIncidencia(Incidencia* incidencia)
 
 int Equipo::contarIncidenciasActivas()
 {
-	int contador = 0;
-
-
-
-
-
-	return contador;
+	return incidencias->contarIncidenciasActivas();
 }
 
 bool Equipo::tieneIncidenciasActivas()
 {
-	return false;
+	return incidencias->tieneIncidenciasActivas();
 }
 
 void Equipo::degradarse()
 {
+	
 }
 
 void Equipo::aumentarTiempoInactivo()
