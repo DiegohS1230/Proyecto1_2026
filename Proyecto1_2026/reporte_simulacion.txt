@@ -1,0 +1,45 @@
+REPORTE GENERAL DE SIMULACION
+Riesgo global final: 53.6
+Equipos pendientes finales: 2
+
+El Id del Equipo es: EQ-001
+El nombre del equipo es: Servidor de laboratorio
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 0
+La prioridad del equipo es: 5
+Numero de incidencias Activas : 0
+
+El Id del Equipo es: EQ-002
+El nombre del equipo es: Router principal
+El numero del cripticidad: 9
+El estado es: 100
+Numero de horas activas es: 0
+La prioridad del equipo es: 4.5
+Numero de incidencias Activas : 0
+
+El Id del Equipo es: EQ-003
+El nombre del equipo es: Switch de red
+El numero del cripticidad: 8
+El estado es: 100
+Numero de horas activas es: 0
+La prioridad del equipo es: 4
+Numero de incidencias Activas : 0
+
+El Id del Equipo es: EQ-004
+El nombre del equipo es: Computadora de aula 1
+El numero del cripticidad: 6
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 3.6
+Numero de incidencias Activas : 2
+
+El Id del Equipo es: EQ-005
+El nombre del equipo es: Proyector del laboratorio
+El numero del cripticidad: 5
+El estado es: 0
+Numero de horas activas es: 0
+La prioridad del equipo es: 2.8
+Numero de incidencias Activas : 1
+
+

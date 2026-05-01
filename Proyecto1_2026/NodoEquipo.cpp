@@ -1,6 +1,6 @@
 #include "NodoEquipo.h"
 
-NodoEquipo::NodoEquipo(Equipo* dato, NodoEquipo* siguientes)
+NodoEquipo::NodoEquipo(Equipo* dato, NodoEquipo* siguiente)
 {
 	this->dato = dato;
 	this->siguiente = siguiente;

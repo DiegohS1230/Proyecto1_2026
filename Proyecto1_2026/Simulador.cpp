@@ -39,7 +39,6 @@ void Simulador::simularDia(int dia)
 		if (top3[i]) {
 			cout << "\nEquipo atendido numero: " << (i + 1) << endl;
 			cout << top3[i]->MostrarEquipo() << endl;
-
 			top3[i]->recibirMantenimiento();
 		}
 	}

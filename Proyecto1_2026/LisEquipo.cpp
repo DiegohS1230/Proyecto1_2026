@@ -116,7 +116,7 @@ string LisEquipo::mostrarEquipos()
     stringstream s;
     actual = primero;
     while (actual) {
-        s<<actual->getDato()<<endl;
+        s<<actual->getDato()->MostrarEquipo()<<endl;
         actual = actual->getSiguiente();
     }
     return s.str();
@@ -155,22 +155,18 @@ Equipo* LisEquipo::buscarPorId(string id)
 Equipo** LisEquipo::obtenerTop3()
 {
     ordenarPorPrioridad();
-
-	Equipo** top3 = new Equipo * [3]; //Se crea un arreglo de punteros a Equipo para almacenar los 3 equipos con mayor prioridad. Se inicializa cada elemento del arreglo a nullptr para evitar valores basura en caso de que haya menos de 3 equipos en la lista.
-
+    Equipo** top3 = new Equipo * [3];
     for (int i = 0; i < 3; i++) {
         top3[i] = nullptr;
     }
 
     actual = primero;
     int contador = 0;
-
-	while (actual && contador < 3) { //Se recorre la lista de equipos ordenada por prioridad y se almacenan los primeros 3 equipos en el arreglo top3. Si hay menos de 3 equipos en la lista, los elementos restantes del arreglo seguiran siendo nullptr.
+    while (actual && contador < 3) {
         top3[contador] = actual->getDato();
         actual = actual->getSiguiente();
         contador++;
     }
-
     return top3;
 }
 
