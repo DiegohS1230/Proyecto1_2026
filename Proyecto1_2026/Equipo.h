@@ -16,7 +16,7 @@ public:
 	string getID();
 	string getNombre();
 	int getCriticidad();
-	int getestado();
+	int getEstado();
 	int getTiempoActivo();
 	double getPrioridad();
 	ColeccionIncidencia* getIncidencias();
@@ -39,9 +39,10 @@ public:
 	void actualizarDia();
 	void calcularPrioridad();
 	void recibirMantenimiento();
-	void resolverUnaIncidencia(string id);
+	void resolverUnaIncidencia();
 	void reiniciarTiempoInactivo();
 	bool necesitaMantenimiento();
 	double calcularRiesgo();
+
 };
 

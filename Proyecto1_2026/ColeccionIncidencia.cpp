@@ -28,17 +28,30 @@ bool ColeccionIncidencia::Agregar(Incidencia* dato)
 
 bool ColeccionIncidencia::Eliminar(string id)
 {
-	Actual = primero;
+	if (primero) return false; //Si la colección esta vacia no se puede eliminar nada.
+	if (primero->getDato()->getId() == id) { //Si el primer nodo es el que se quiere eliminar, se elimina y se actualiza el puntero primero.
+		NodoIncidencia* temp = primero;
+		primero = primero->getSiguiente();
+
+		delete temp->getDato();
+		delete temp;
+
+		return true;
+	}
+	NodoIncidencia* anterior = primero;
+	Actual = primero->getSiguiente();
 	while (Actual) {
-		if (Actual->getDato()->getId() == id) {
-			NodoIncidencia* temp = Actual;
-			Actual = Actual->getSiguiente();
-			delete temp->getDato();
-			delete temp;
+		if (Actual->getDato()->getId() == id) { //Si el nodo actual es el que se quiere eliminar, se elimina y se actualiza el puntero del nodo anterior para saltar el nodo eliminado.
+			anterior->setSiguiente(Actual->getSiguiente());
+			delete Actual->getDato();
+			delete Actual;
+			Actual = nullptr;
 			return true;
 		}
+		anterior = Actual;
 		Actual = Actual->getSiguiente();
 	}
+
 	return false;
 }
 

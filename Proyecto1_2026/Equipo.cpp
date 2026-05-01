@@ -15,7 +15,7 @@ Equipo::~Equipo() {
 string Equipo::getID() { return id; }
 string Equipo::getNombre() {return nombre;}
 int Equipo::getCriticidad() { return criticidad; }
-int Equipo::getestado() { return estado; }
+int Equipo::getEstado() { return estado; }
 int Equipo::getTiempoActivo() { return tiempoActivo; }
 double Equipo::getPrioridad() { return prioridad; }
 ColeccionIncidencia* Equipo::getIncidencias() { return incidencias; }
@@ -37,7 +37,7 @@ string Equipo::MostrarEquipo()
 	s << "El estado es: "<<estado << endl;
 	s << "Numero de horas activas es: "<<tiempoActivo << endl;
 	s << "La prioridad del equipo es: "<<prioridad << endl;
-	if(incidencias) s << "Numero de incidencias: "<<incidencias->contarIncidenciasActivas() << endl;
+	if(incidencias) s << "Numero de incidencias Activas : " <<incidencias->contarIncidenciasActivas() << endl;
 	return s.str();
 }
 //Metodos de comportamiento
@@ -75,7 +75,7 @@ void Equipo::recibirMantenimiento() //Recibe mantenimiento, lo que aumenta el es
 	calcularPrioridad();
 }
 
-void Equipo::resolverUnaIncidencia(string id) { if (incidencias != nullptr) incidencias->resolverIncidencia(id); } //Resuelve una incidencia activa del equipo, llamando al metodo resolverUnaIncidenciaActiva de la coleccion de incidencias.
+void Equipo::resolverUnaIncidencia() { if (incidencias) incidencias->resolverUnaIncidenciaActiva(); } //Resuelve una incidencia activa del equipo, llamando al metodo resolverUnaIncidenciaActiva de la coleccion de incidencias.
 void Equipo::reiniciarTiempoInactivo() { tiempoActivo = 0; } //Reinicia el tiempo activo del equipo a 0.
 bool Equipo::necesitaMantenimiento() { return estado <= 50 || contarIncidenciasActivas() > 0; } //Devuelve true si el estado del equipo es menor o igual a 50 o si tiene al menos una incidencia activa, indicando que el equipo necesita mantenimiento. 
 double Equipo::calcularRiesgo() { return (100 - estado) + contarIncidenciasActivas() * 10 + criticidad; } //Calcula el riesgo del equipo en base a su estado, el numero de incidencias activas y su criticidad. 
