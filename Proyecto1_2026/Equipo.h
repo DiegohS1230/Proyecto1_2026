@@ -43,6 +43,5 @@ public:
 	void reiniciarTiempoInactivo();
 	bool necesitaMantenimiento();
 	double calcularRiesgo();
-
 };
 

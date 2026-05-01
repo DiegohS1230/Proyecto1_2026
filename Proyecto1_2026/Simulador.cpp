@@ -1,1 +1,72 @@
 #include "Simulador.h"
+
+Simulador::Simulador(LisEquipo* equipos, int dias)
+{
+	this->equipos = equipos;
+	this->dias = dias;
+}
+
+Simulador::~Simulador()
+{
+	delete equipos;
+}
+
+void Simulador::ejecutarSimulacion(){
+	for (int dia = 1; dia <= dias; dia++) {
+		simularDia(dia);
+		generarReporteDiario(dia);
+	}
+	guardarReporteEnArchivo();	
+}
+
+void Simulador::simularDia(int dia)
+{
+	cout << "\n==============================" << endl;
+	cout << "          DIA " << dia << endl;
+	cout << "==============================" << endl;
+
+	if (!equipos) {
+		cout << "No hay equipos cargados." << endl;
+		return;
+	}
+
+	equipos->degradarTodos();
+	equipos->calcularPrioridades();
+	equipos->ordenarPorPrioridad();
+	Equipo** top3 = equipos->obtenerTop3();
+	//Da mantenimiento
+	for (int i = 0; i < 3; i++) {
+		if (top3[i]) {
+			cout << "\nEquipo atendido numero: " << (i + 1) << endl;
+			cout << top3[i]->MostrarEquipo() << endl;
+
+			top3[i]->recibirMantenimiento();
+		}
+	}
+	delete[] top3;
+	// Recalcular después del mantenimiento
+	equipos->calcularPrioridades();
+}
+
+
+void Simulador::generarReporteDiario(int dia)
+{
+	cout << "\n----- REPORTE DEL DIA " << dia << " -----" << endl;
+	cout << "Riesgo global del laboratorio: "<< equipos->calcularRiesgoGlobal() << endl;
+	cout << "Equipos pendientes de atencion: "<< equipos->contarPendientes() << endl;
+	cout << "Estado general:" << endl;
+	cout << equipos->mostrarEquipos() << endl;
+}
+
+void Simulador::guardarReporteEnArchivo()
+{
+	ofstream archivo("reporte_simulacion.txt");
+	if (!archivo.is_open()) throw runtime_error("No se pudo abrir el archivo para escribir el reporte.");
+	archivo << "REPORTE GENERAL DE SIMULACION" << endl;
+	archivo << "Riesgo global final: " << equipos->calcularRiesgoGlobal() << endl;
+	archivo << "Equipos pendientes finales: " << equipos->contarPendientes() << endl;
+	archivo << endl;
+	archivo << equipos->mostrarEquipos() << endl;
+	archivo.close();
+	cout << "Reporte guardado en reporte_simulacion.txt" << endl;
+}

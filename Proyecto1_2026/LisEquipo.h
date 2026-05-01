@@ -5,6 +5,10 @@ class LisEquipo
 private:
 	NodoEquipo* primero;
 	NodoEquipo* actual;
+	//Metodos privados (ORDENAMIENTO)
+	NodoEquipo* dividirLista(NodoEquipo* inicio);
+	NodoEquipo* mezclarPorPrioridad(NodoEquipo* izquierda, NodoEquipo* derecha);
+	NodoEquipo* mergeSort(NodoEquipo* inicio);
 public:
 	LisEquipo();
 	~LisEquipo();
@@ -21,10 +25,11 @@ public:
 	//metodos de comportamiento
 	void degradarTodos();
 	void calcularPrioridades();
-	void ordenarPorPrioridad();
 	Equipo* buscarPorId(string id);
 	Equipo** obtenerTop3();
 	double calcularRiesgoGlobal();
 	int contarPendientes();
+	//Metodos de ordenamiento
+	void ordenarPorPrioridad();
 };
 
