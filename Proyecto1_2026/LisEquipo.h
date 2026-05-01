@@ -27,4 +27,4 @@ public:
 	double calcularRiesgoGlobal();
 	int contarPendientes();
 };
-}
+
