@@ -7,12 +7,18 @@ Simulador::Simulador(LisEquipo* equipos, int dias): equipos(equipos),mantenimien
 	this->dias = dias;
     mantenimientos->agregarMantenimiento(new Mante_Preventivo());
     mantenimientos->agregarMantenimiento(new Mante_Correctivo());
+    tecnicos[0] = new Tecnico("Carlos", "TEC-01");
+    tecnicos[1] = new Tecnico("Maria", "TEC-02");
+    tecnicos[2] = new Tecnico("Jose", "TEC-03");
 }
 
 Simulador::~Simulador()
 {
     delete equipos;
     delete mantenimientos;
+    for (int i = 0; i < 3; i++) {
+        delete tecnicos[i];
+    }
 }
 
 void Simulador::ejecutarSimulacion(){
@@ -35,26 +41,21 @@ void Simulador::simularDia(int dia)
     equipos->ordenarPorPrioridad();
     Equipo** top3 = equipos->obtenerTop3();
     for (int i = 0; i < 3; i++) {
-        if (top3[i]) {
+        if (top3[i] && tecnicos[i]->estaDisponible()) {
+            tecnicos[i]->asignarEquipo(top3[i]);
             cout << "\nEquipo atendido numero: " << (i + 1) << endl;
             cout << top3[i]->MostrarEquipo() << endl;
-
             Mantenimiento* mantenimiento = seleccionarMantenimiento(top3[i]);
-
-            cout << "Tipo de mantenimiento: " << mantenimiento->getTipo() << endl;
-            cout << mantenimiento->descripcion() << endl;
-
             Mante_Correctivo* correctivo = dynamic_cast<Mante_Correctivo*>(mantenimiento);
-
             if (correctivo) {
                 cout << "Mantenimiento correctivo detectado." << endl;
                 correctivo->repararFallaCritica();
             }
-
+            tecnicos[i]->ejecutarMantenimiento();
             mantenimiento->aplicar(top3[i]);
-
             cout << "\nDespues del mantenimiento:" << endl;
             cout << top3[i]->MostrarEquipo() << endl;
+            tecnicos[i]->liberar();
         }
     }
     delete[] top3;

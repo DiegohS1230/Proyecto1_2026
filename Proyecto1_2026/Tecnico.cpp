@@ -33,18 +33,25 @@ string Tecnico::MostrarTecnico()
 
 bool Tecnico::estaDisponible()
 {
-    return ocupado;
+    return !ocupado;
 }
 
 void Tecnico::asignarEquipo(Equipo* equipo)
 {
+    if (!equipo) return;
+    ocupado = true;
+    cout << nombre << " fue asignado al equipo: "
+        << equipo->getNombre() << endl;
 
 }
 
 void Tecnico::ejecutarMantenimiento()
 {
+    cout << nombre << " esta ejecutando mantenimiento..." << endl;
 }
 
 void Tecnico::liberar()
 {
+    ocupado = false;
+    cout << nombre << " ha quedado disponible." << endl;
 }
