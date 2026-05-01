@@ -30,3 +30,21 @@ string Tecnico::MostrarTecnico()
     else s << "El Tecnico no esta ocupado " << endl;
     return s.str();
 }
+
+bool Tecnico::estaDisponible()
+{
+    return ocupado;
+}
+
+void Tecnico::asignarEquipo(Equipo* equipo)
+{
+
+}
+
+void Tecnico::ejecutarMantenimiento()
+{
+}
+
+void Tecnico::liberar()
+{
+}

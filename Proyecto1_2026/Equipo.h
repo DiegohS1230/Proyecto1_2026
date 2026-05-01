@@ -6,17 +6,17 @@ private:
 	string id;
 	string nombre;
 	int criticidad;
-	bool estado;
+	int estado;
 	int tiempoActivo;
 	double prioridad;
 	ColeccionIncidencia* incidencias;
 public:
-	Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad);
+	Equipo(string id, string nombre, int criticidad, int estado, int tiempoActivo, double prioridad);
 	~Equipo();
 	string getID();
 	string getNombre();
 	int getCriticidad();
-	bool getestado();
+	int getestado();
 	int getTiempoActivo();
 	double getPrioridad();
 	ColeccionIncidencia* getIncidencias();
@@ -24,7 +24,7 @@ public:
 	void setID(string id);
 	void setNombre(string nombre);
 	void setCriticidad(int criticidad);
-	void setEstado(bool estado);
+	void setEstado(int estado);
 	void setTiempoActivo(int tiempoActivo);
 	void setPrioridad(double prioridad);
 	void setIncidencias(ColeccionIncidencia* incidencias);
@@ -39,7 +39,7 @@ public:
 	void actualizarDia();
 	void calcularPrioridad();
 	void recibirMantenimiento();
-	void resolverUnaIncidencia();
+	void resolverUnaIncidencia(string id);
 	void reiniciarTiempoInactivo();
 	bool necesitaMantenimiento();
 	double calcularRiesgo();

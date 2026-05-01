@@ -93,7 +93,7 @@ bool ColeccionIncidencia::resolverUnaIncidenciaActiva() //Resuelve la primera in
 	Actual = primero;
 	while (Actual) {
 		if (Actual->getDato()->getActiva()) {
-			Actual->getDato()->cerrar();
+			Actual->getDato()->resolver();
 			return true;
 		}
 		Actual = Actual->getSiguiente();
@@ -107,7 +107,7 @@ bool ColeccionIncidencia::resolverIncidencia(string id)
 	while (Actual) {
 		if (Actual->getDato()->getId() == id) {
 			if (Actual->getDato()->getActiva()) {
-				Actual->getDato()->cerrar();
+				Actual->getDato()->resolver();
 				return true;
 			}
 			return false; //Si la incidencia no esta activa no se puede resolver.
@@ -122,7 +122,7 @@ void ColeccionIncidencia::resolverTodas() //Resuelve todas las incidencias activ
 	Actual = primero;
 	while (Actual) {
 		if (Actual->getDato()->getActiva()) {
-			Actual->getDato()->cerrar();
+			Actual->getDato()->resolver();
 		}
 		Actual = Actual->getSiguiente();
 	}

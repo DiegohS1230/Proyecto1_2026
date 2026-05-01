@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Incidencia.h"
+#include "Equipo.h"
 using namespace std;
 class Tecnico{
 private: 
