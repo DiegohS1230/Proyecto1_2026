@@ -9,8 +9,9 @@ private:
 	bool estado;
 	int tiempoActivo;
 	double prioridad;
+	ColeccionIncidencia* incidencias;
 public:
-	Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad);
+	Equipo(string id, string nombre, int criticidad, bool estado, int tiempoActivo, double prioridad, ColeccionIncidencia* incidencias);
 	~Equipo();
 	string getID();
 	string getNombre();
@@ -18,13 +19,15 @@ public:
 	bool getestado();
 	int getTiempoActivo();
 	double getPrioridad();
-	//stes
+	ColeccionIncidencia* getIncidencias();
+	//sets	
 	void setID(string id);
 	void setNombre(string nombre);
 	void setCriticidad(int criticidad);
 	void setEstado(bool estado);
 	void setTiempoActivo(int tiempoActivo);
 	void setPrioridad(double prioridad);
+	void setIncidencias(ColeccionIncidencia* incidencias);
 	//To String
 	string MostrarEquipo();
 	//Metodos de comportamiento;
