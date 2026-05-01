@@ -1,4 +1,2553 @@
-REPORTE COMPLETO DE SIMULACION
+
+==============================
+          DIA 1
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 74
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 94
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 64
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 84
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 94
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 2
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 89
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 79
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 99
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 3
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 94
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 4
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 5
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 6
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 7
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 8
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 9
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 10
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 11
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 12
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 13
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 14
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 15
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 16
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 17
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 18
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 19
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 20
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 21
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 22
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 23
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 24
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 25
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 26
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 27
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 28
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 29
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
+
+==============================
+          DIA 30
+==============================
+
+Tecnico asignado: Carlos
+Equipo atendido numero: 1
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Carlos esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-99
+El nombre del equipo es: Estacion de trabajo docente #99
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Carlos ha quedado disponible.
+
+Tecnico asignado: Maria
+Equipo atendido numero: 2
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Maria esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-89
+El nombre del equipo es: Estacion de trabajo docente #89
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Maria ha quedado disponible.
+
+Tecnico asignado: Jose
+Equipo atendido numero: 3
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 95
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Tipo de mantenimiento: Correctivo
+Mantenimiento correctivo: mejora fuerte y resuelve una incidencia.
+Mantenimiento correctivo detectado.
+Reparacion critica realizada.
+Jose esta ejecutando mantenimiento...
+
+Despues del mantenimiento:
+El Id del Equipo es: EQ-79
+El nombre del equipo es: Estacion de trabajo docente #79
+El numero del cripticidad: 10
+El estado es: 100
+Numero de horas activas es: 4
+La prioridad del equipo es: 6.7
+Numero de incidencias Activas : 3
+
+Jose ha quedado disponible.
 REPORTE GENERAL DE SIMULACION
 Riesgo global final: 132.5
 Equipos pendientes finales: 100

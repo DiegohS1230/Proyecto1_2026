@@ -23,7 +23,6 @@ Simulador::~Simulador()
 
 void Simulador::ejecutarSimulacion(){
     ofstream limpiar("reporte_simulacion.txt");
-    limpiar << "REPORTE COMPLETO DE SIMULACION" << endl;
     limpiar.close();
     for (int dia = 1; dia <= dias; dia++) {
         simularDia(dia);
@@ -34,11 +33,20 @@ void Simulador::ejecutarSimulacion(){
 
 void Simulador::simularDia(int dia)
 {
+    ofstream archivo("reporte_simulacion.txt", ios::app);
+    if (!archivo.is_open()) {
+        throw ClassExceptio("No se pudo abrir el archivo de reporte.");
+    }
     cout << "\n==============================" << endl;
     cout << "          DIA " << dia << endl;
     cout << "==============================" << endl;
+    archivo << "\n==============================" << endl;
+    archivo << "          DIA " << dia << endl;
+    archivo << "==============================" << endl;
+    if (!equipos) {
+        throw ClassExceptio("No hay equipos cargados en el simulador.");
+    }
 
-    if (!equipos) throw ClassExceptio("No hay equipos cargados en el simulador.");
     equipos->degradarTodos();
     equipos->calcularPrioridades();
     equipos->ordenarPorPrioridad();
@@ -48,21 +56,43 @@ void Simulador::simularDia(int dia)
             tecnicos[i]->asignarEquipo(top3[i]);
             cout << "\nEquipo atendido numero: " << (i + 1) << endl;
             cout << top3[i]->MostrarEquipo() << endl;
+            archivo << "\nTecnico asignado: " << tecnicos[i]->getNombreTec() << endl;
+            archivo << "Equipo atendido numero: " << (i + 1) << endl;
+            archivo << top3[i]->MostrarEquipo() << endl;
             Mantenimiento* mantenimiento = seleccionarMantenimiento(top3[i]);
+            if (!mantenimiento) {
+                delete[] top3;
+                throw ClassExceptio("No se encontro un mantenimiento valido.");
+            }
+            cout << "Tipo de mantenimiento: " << mantenimiento->getTipo() << endl;
+            cout << mantenimiento->descripcion() << endl;
+            archivo << "Tipo de mantenimiento: " << mantenimiento->getTipo() << endl;
+            archivo << mantenimiento->descripcion() << endl;
             Mante_Correctivo* correctivo = dynamic_cast<Mante_Correctivo*>(mantenimiento);
             if (correctivo) {
                 cout << "Mantenimiento correctivo detectado." << endl;
+                archivo << "Mantenimiento correctivo detectado." << endl;
+
                 correctivo->repararFallaCritica();
+                archivo << "Reparacion critica realizada." << endl;
             }
             tecnicos[i]->ejecutarMantenimiento();
-            mantenimiento->aplicar(top3[i]);
+            archivo << tecnicos[i]->getNombreTec() << " esta ejecutando mantenimiento..." << endl;
+            mantenimiento->aplicar(top3[i]); 
             cout << "\nDespues del mantenimiento:" << endl;
             cout << top3[i]->MostrarEquipo() << endl;
+            archivo << "\nDespues del mantenimiento:" << endl;
+            archivo << top3[i]->MostrarEquipo() << endl;
             tecnicos[i]->liberar();
+            archivo << tecnicos[i]->getNombreTec() << " ha quedado disponible." << endl;
         }
     }
+	//Se duplica la info par que en el reporte diario se muestre el estado actualizado de los equipos despues de los mantenimientos realizados en el dia
     delete[] top3;
+
     equipos->calcularPrioridades();
+
+    archivo.close();
 }
 
 
