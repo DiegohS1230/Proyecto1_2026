@@ -31,16 +31,17 @@ public:
 	//To String
 	string MostrarEquipo();
 	//Metodos de comportamiento;
-	void degradar();
-	int contarIncidenciasActivas();
-	double calcularPrioridad();
-	void aplicarMantenimiento();
-	double calcularRiesgo();
 	void agregarIncidencia(Incidencia* incidencia);
-	void activar();
-	void cerrar();
-	bool estaActiva();
-	int calcularDiasActiva(int diaActual);
-	int obtenerPesoSeveridad();
+	int contarIncidenciasActivas();
+	bool tieneIncidenciasActivas();
+	void degradarse();
+	void aumentarTiempoInactivo();
+	void actualizarDia();
+	void calcularPrioridad();
+	void recibirMantenimiento();
+	void resolverUnaIncidencia();
+	void reiniciarTiempoInactivo();
+	bool necesitaMantenimiento();
+	double calcularRiesgo();
 };
 

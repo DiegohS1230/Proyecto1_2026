@@ -9,7 +9,9 @@ Equipo::Equipo(string id, string nombre, int criticidad, bool estado, int tiempo
 	this->incidencias = new ColeccionIncidencia();
 	this->prioridad = prioridad;
 }
-Equipo::~Equipo() {}
+Equipo::~Equipo() {
+	delete incidencias;
+}
 string Equipo::getID() { return id; }
 string Equipo::getNombre() {return nombre;}
 int Equipo::getCriticidad() { return criticidad; }
@@ -37,4 +39,63 @@ string Equipo::MostrarEquipo()
 	s << "La prioridad del equipo es: "<<prioridad << endl;
 	if(incidencias) s << "Numero de incidencias: "<<incidencias->MostrarIncidencias() << endl;
 	return s.str();
+}
+//Metodos de comportamiento
+void Equipo::agregarIncidencia(Incidencia* incidencia)
+{
+	if(incidencia)incidencias->Agregar(incidencia);
+}
+
+int Equipo::contarIncidenciasActivas()
+{
+	int contador = 0;
+
+
+
+
+
+	return contador;
+}
+
+bool Equipo::tieneIncidenciasActivas()
+{
+	return false;
+}
+
+void Equipo::degradarse()
+{
+}
+
+void Equipo::aumentarTiempoInactivo()
+{
+}
+
+void Equipo::actualizarDia()
+{
+}
+
+void Equipo::calcularPrioridad()
+{
+}
+
+void Equipo::recibirMantenimiento()
+{
+}
+
+void Equipo::resolverUnaIncidencia()
+{
+}
+
+void Equipo::reiniciarTiempoInactivo()
+{
+}
+
+bool Equipo::necesitaMantenimiento()
+{
+	return false;
+}
+
+double Equipo::calcularRiesgo()
+{
+	return 0.0;
 }
