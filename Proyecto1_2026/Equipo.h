@@ -45,5 +45,6 @@ public:
 	bool necesitaMantenimiento();
 	double calcularRiesgo();
 	void mejorarEstado(int puntos);
+
 };
 
