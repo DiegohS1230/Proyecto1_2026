@@ -90,6 +90,5 @@ Mantenimiento* Simulador::seleccionarMantenimiento(Equipo* equipo)
     if (equipo->calcularRiesgo() >= 50 || equipo->contarIncidenciasActivas() > 0) {
         return mantenimientos->buscarPorId("Correctivo");
     }
-
     return mantenimientos->buscarPorId("Preventivo");
 }
